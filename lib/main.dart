@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        textTheme: GoogleFonts.ibarraRealNovaTextTheme(),
+        textTheme: GoogleFonts.ibmPlexMonoTextTheme(),
       ),
-      home: const AuthScreen(),
+      home: AuthScreen(),
     );
   }
 }
